@@ -1,0 +1,38 @@
+body {
+  background: #f3eeee;
+}
+.home {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  font-family: sans-serif;
+}
+
+.home h1 {
+  text-align: center;
+  color: blue;
+  text-shadow: chocolate;
+}
+
+.home p {
+  font-weight: 400%;
+}
+
+/* unvisited link */
+.home a:link {
+    color: red;
+}
+
+/* visited link */
+.home a:visited {
+    color: green;
+}
+
+/* mouse over link */
+.home a:hover {
+    color: blue;
+}
+
+/* selected link */
+.home a:active {
+    color: hotpink;
+}
